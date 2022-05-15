@@ -1,0 +1,19 @@
+<div class="general">
+    <h1>LISTADO DE ALUMNOS Y NOTAS</h1>
+    <div *ngFor="let estudiante of estudiantes" [ngClass]="estudiante.nota<=5 ? 'desaprueba' : 'aprueba'">
+        <a class="box1">
+            {{estudiante.apellido | uppercase}}, {{estudiante.nombre | titlecase}}
+        </a>
+        <a class="box2">
+            {{estudiante.nacimiento | date: 'yyyy/MM/dd'}}
+        </a>
+        <a class="box3">
+            {{estudiante.nota}}
+        </a>
+        <a class="box1">
+            {{estudiante.curso | uppercase}}
+        </a>
+
+    </div>
+
+</div>

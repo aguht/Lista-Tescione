@@ -1,0 +1,53 @@
+.general{
+    font-size: 18px;
+    font-family:Arial, Helvetica;
+    width:fit-content; 
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    position: relative;
+    text-align: center;
+}
+
+.box1{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    margin: -1px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.box2{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    margin: -1px;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+.box3{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    margin: -1px;
+    width: 50px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.desaprueba{
+    background: rgb(246, 137, 137);
+    width: fit-content;
+}
+
+.aprueba{
+    background-color: rgb(118, 230, 136);
+    width: fit-content;
+}
